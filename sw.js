@@ -2,7 +2,7 @@
    Die App ist eine einzige Datei (index.html) plus Symbole. Alles wird beim ersten Besuch gespeichert.
    Danach startet die App sofort aus dem Speicher; ist Internet da, wird im Hintergrund nach einer
    neuen Version gesucht und diese beim nächsten Öffnen verwendet. */
-const CACHE = "chemlab-e2b1708e28";
+const CACHE = "chemlab-c8a8dcd460";
 const FILES = ["./", "./index.html", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png", "./maskable-512.png", "./apple-touch-icon.png", "./favicon-32.png"];
 
 self.addEventListener("install", (e) => {
